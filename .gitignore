@@ -1,0 +1,22 @@
+.DS_Store
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+
+# Runtime logs and temporary outputs
+*.log
+ffmpeg_log.txt
+output/*
+!output/.gitkeep
+
+# Local media and downloaded models
+input/*
+!input/.gitkeep
+models/*
+!models/.gitkeep
+
+# Packaged binary/runtime from downloaded app distribution
+REAL-Video-Enhancer
+_internal/
